@@ -1,0 +1,10 @@
+Paso-1: en tu navegador de internet descargar visual studio, git, virtual box, ubuntu (de git la version que deberás instalar es la 2.55.0(4) x64 y del primer link porque los otros causan incompatibilidad con windows, y de ubuntu descarga la ultima version que este verificada).
+Paso-2: crear o instalar de manera correcta ubuntu dentro de la virtual box y asignarle algunas características conforme al equipo que estés utilizando (para instalar ubuntu dentro de la virtual box deberás colocarle un nombre, poner el archivo instalado en las casilla de iso image y después colocar tu nombre de usuario y una contraseña).
+Paso-3: iniciar ubuntu dentro de la virtual box y acceder al programa terminal dentro de ubuntu (dependiendo de tu equipo esto podría tardarse un poco pero después de que cargue e inicia la pantalla de ubuntu podrás acceder a la terminal).
+Paso-4: iniciar visual studio fuera de virtual box después de haber instalado git (esto se hace para que este habilitado el poder clonar los repositorios que utilizaremos mas adelante).
+Paso-5: en tu navegador busca GitHub y crea una cuenta.
+Paso-6: después de crear tu cuenta ahora crea un repositorio con los caracteres que te diga tu profesor.
+Paso-7: después de eso vinc oula tu cuenta de GitHub con visual studio
+Paso-8: clonar tu repositorio de GitHub en visual studio
+Paso-9: en ese nuevo repositorio crear un nuevo folder llamado "01_practica"
+Paso-10: en ese nuevo folder crear un nuevo archivo llamado "guía.txt"
