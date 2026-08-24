@@ -8,3 +8,8 @@ Paso-7: después de eso vinc oula tu cuenta de GitHub con visual studio
 Paso-8: clonar tu repositorio de GitHub en visual studio
 Paso-9: en ese nuevo repositorio crear un nuevo folder llamado "01_practica"
 Paso-10: en ese nuevo folder crear un nuevo archivo llamado "guía.txt"
+Paso-11: después de poner los pasos que hicimos en ese archivo en visual studio dirigirse al apartado que dice "source control" y darle en el mas que aparece al lado de nuestro archivo y a continuación darle en la opción que dice "commit".
+Paso-12: después de darle commit nos aparecerá un error que solucionaremos dándole en la opción que dice terminal en la esquina superior izquierda de visual studio.
+Paso-13: en esa terminal poner los siguientes comandos: (git config --global user.name "FIRST_NAME LAST_NAME") y después (git config --global user.email "MY_NAME@example.com")
+Paso-14: después de poner esos códigos volver a darle commit y ahora iniciar sesión y dar autorización con nuestra cuenta de GitHub
+Paso-15: en la barra donde dice message ponerle el nombre de "CREATE guía.txt" y ahora si subir lo que habíamos escrito anteriormente.   
