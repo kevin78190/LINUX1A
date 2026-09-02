@@ -1,15 +1,35 @@
-Paso-1: en tu navegador de internet descargar visual studio, git, virtual box, ubuntu (de git la version que deberás instalar es la 2.55.0(4) x64 y del primer link porque los otros causan incompatibilidad con windows, y de ubuntu descarga la ultima version que este verificada).
-Paso-2: crear o instalar de manera correcta ubuntu dentro de la virtual box y asignarle algunas características conforme al equipo que estés utilizando (para instalar ubuntu dentro de la virtual box deberás colocarle un nombre, poner el archivo instalado en las casilla de iso image y después colocar tu nombre de usuario y una contraseña).
-Paso-3: iniciar ubuntu dentro de la virtual box y acceder al programa terminal dentro de ubuntu (dependiendo de tu equipo esto podría tardarse un poco pero después de que cargue e inicia la pantalla de ubuntu podrás acceder a la terminal).
-Paso-4: iniciar visual studio fuera de virtual box después de haber instalado git (esto se hace para que este habilitado el poder clonar los repositorios que utilizaremos mas adelante).
+Paso-1: en tu navegador de internet descargar visual studio, git, virtual box, ubuntu (de git la version 
+que deberás instalar es la 2.55.0(4) x64 y del primer link porque los otros causan incompatibilidad con windows, y de ubuntu descarga la ultima version que este verificada).
+Paso-2: crear o instalar de manera correcta ubuntu dentro de la virtual box y asignarle algunas características 
+conforme al equipo que estés utilizando (para instalar ubuntu dentro de la virtual box deberás colocarle un nombre, poner el archivo instalado en las casilla de iso image y después colocar tu nombre de usuario y una contraseña).
+Paso-3: iniciar ubuntu dentro de la virtual box y acceder al programa terminal dentro de ubuntu (dependiendo
+ de tu equipo esto podría tardarse un poco pero después de que cargue e inicia la pantalla de ubuntu podrás acceder a la terminal).
+Paso-4: iniciar visual studio fuera de virtual box después de haber instalado git (esto se hace para que 
+este habilitado el poder clonar los repositorios que utilizaremos mas adelante).
 Paso-5: en tu navegador busca GitHub y crea una cuenta.
 Paso-6: después de crear tu cuenta ahora crea un repositorio con los caracteres que te diga tu profesor.
 Paso-7: después de eso vinc oula tu cuenta de GitHub con visual studio
 Paso-8: clonar tu repositorio de GitHub en visual studio
 Paso-9: en ese nuevo repositorio crear un nuevo folder llamado "01_practica"
 Paso-10: en ese nuevo folder crear un nuevo archivo llamado "guía.txt"
-Paso-11: después de poner los pasos que hicimos en ese archivo en visual studio dirigirse al apartado que dice "source control" y darle en el mas que aparece al lado de nuestro archivo y a continuación darle en la opción que dice "commit".
-Paso-12: después de darle commit nos aparecerá un error que solucionaremos dándole en la opción que dice terminal en la esquina superior izquierda de visual studio.
-Paso-13: en esa terminal poner los siguientes comandos: (git config --global user.name "FIRST_NAME LAST_NAME") y después (git config --global user.email "MY_NAME@example.com")
+Paso-11: después de poner los pasos que hicimos en ese archivo en visual studio dirigirse al apartado que 
+dice "source control" y darle en el mas que aparece al lado de nuestro archivo y a continuación darle en la opción que dice "commit".
+Paso-12: después de darle commit nos aparecerá un error que solucionaremos dándole en la opción que dice 
+terminal en la esquina superior izquierda de visual studio.
+Paso-13: en esa terminal poner los siguientes comandos: (git config --global user.name "FIRST_NAME LAST_NAME") y 
+después (git config --global user.email "MY_NAME@example.com")
 Paso-14: después de poner esos códigos volver a darle commit y ahora iniciar sesión y dar autorización con nuestra cuenta de GitHub
 Paso-15: en la barra donde dice message ponerle el nombre de "CREATE guía.txt" y ahora si subir lo que habíamos escrito anteriormente.   
+Paso-16: ahora en virtual box abriremos nuestro ubuntu previamente instalado y en el buscaremos la terminal.
+Paso-17: en la terminal de ubuntu pondremos el siguiente codigo ¨mkdir -p ~/laboratorio-cli/{docs,src,logs}
+Paso-18: despues de poner ese codigo presionar enter y despues poner ¨ls¨y volver a presionar enter.
+Paso-19: despues de presionar enter ahora poner el siguiente codigo ¨cd ~/laboratorio-cli¨.
+Paso-20: vover a presionar enter y despues poner otra vez el codigo ¨ls¨ y de igual foma presionar enter.
+Paso-21: ahora poner el siguiente codigo ¨touch docs/{guia,notas}.md src/{main,test}.py logs/app.log REAADME.txt
+Paso-22: repetir el paso-20
+Paso-23: ahora poner el codigo ¨cd docs¨
+Paso-24: repetir el paso-20
+Paso-25: poner el codigo ¨cd ..¨ presionar enter y a continuacion poner el codigo ¨cd src¨y repetir el paso-20
+Paso-26: poner el codigo ¨cd ..¨ presionar enter y a continuacion poner el codigo ¨cd logs¨ y repetir el paso-20
+Paso-27: poner el codigo ¨cd ..¨ presionar enter y a continuacion poner el codigo ¨printf 'error\nok\nerror\n' > logs/app.logs¨
+y presionar enter y despues poner el siguiente codigo ¨cd logs¨ y presionar enter 
